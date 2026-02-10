@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     background: #ebe2dd;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .section {
