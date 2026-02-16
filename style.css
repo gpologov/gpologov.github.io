@@ -1,3 +1,7 @@
+:root {
+    --primary: #ab8f77;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -93,7 +97,7 @@ body {
 }
 
 .calendar .active {
-    border: 2px solid rgba(140, 131, 122);
+    border: 2px solid var(--primary);
     border-radius: 50%;
 }
 
@@ -141,7 +145,7 @@ body {
 }
 
 .card {
-    background: rgba(140, 131, 122);
+    background: var(--primary);
     border-radius: 16px;
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -155,7 +159,7 @@ body {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: rgba(140, 131, 122);
+    background-color: var(--primary);
     top: -45px;
     left: 50%;
     transform: translateX(-50%);
@@ -212,7 +216,7 @@ body {
 }
 
 .location button {
-    background-color: rgba(140, 131, 122);
+    background-color: var(--primary);
     padding: 14px 24px;
     color: #fff;
     border: none;
@@ -220,7 +224,7 @@ body {
 }
 
 .card-request {
-    background-color: rgba(140, 131, 122);
+    background-color: var(--primary);
     padding: 50px 20px 40px 16px;
     border-radius: 16px;
     color: #fff;
@@ -287,7 +291,7 @@ body {
     text-align: center;
     display: inline-block;
     text-decoration: none;
-    background-color: rgba(140, 131, 122);
+    background-color: var(--primary);
     color: #fff;
     
     padding: 14px 24px;
