@@ -5,23 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
-    </noscript> -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <main class="page">
-        <section class="invite section">
-            <h1 class="names animate">Глеб<br>Полина</h1>
+        <section class="invite section mb">
+            <h1 class="names animate-2">Глеб и Полина</h1>
 
             <div class="photo-card animate delay-1 animate--img">
                 <img src="./assets/background.jpeg" alt="Пара" />
@@ -29,8 +20,7 @@
 
             <h2 class="title animate delay-2">Дорогие гости</h2>
             <p class="text animate delay-3">
-                Мы приглашаем вас разделить с нами радостный день,
-                в который мы станем семьёй
+                Мы приглашаем вас на нашу свадьбу
             </p>
 
             <div class="calendar animate delay-3">
@@ -42,84 +32,110 @@
 
             <div class="schedule animate delay-3">
                 <div class="item">
-                    <span class="time">12:00</span>
+                    <span class="time">12:30</span>
                     <div>
-                        <strong class="item-title">Сбор гостей</strong>
-                        <p>Время приятного общения</p>
+                        <strong class="item-title">Роспись</strong>
+                        <p>Таганский дворец бракосочетания г.Москва</p>
                     </div>
                 </div>
 
                 <div class="item align-right">
-                    <span class="time">14:00</span>
+                    <span class="time">13:30</span>
                     <div>
-                        <strong class="item-title">Церемония</strong>
-                        <p>Самый трогательный момент</p>
+                        <strong class="item-title">Свободное время</strong>
+                        <p>Для прогулки, фотосессии</p>
                     </div>
                 </div>
 
                 <div class="item">
-                    <span class="time">21:00</span>
+                    <span class="time">17:00</span>
                     <div>
-                        <strong class="item-title">Окончание вечера</strong>
-                        <p>Тёплые объятия</p>
+                        <strong class="item-title">Праздничная церемония</strong>
+                        <p>Тёплые объятия, поздавления, вкусный ужин</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="details section">
-            <div class="card animate">
-                <img src="./assets/house-black.jpeg" alt="Локация" />
-            </div>
-
-            <div class="location animate delay-1">
+        <section class="details section mb">
+            <div class="location animate">
                 <h3>Локация</h3>
                 <p>КП Лосинный Парк д.133</p>
                 <button>Открыть карту</button>
             </div>
-        </section>
 
-        <section class="love section animate delay-2">
-            <div class="card">
-                <img src="./assets/love-black.jpeg" alt="Локация" />
+            <div class="card animate delay-1">
+                <img src="./assets/house-black.jpeg" alt="Локация" />
             </div>
         </section>
 
         <section class="requests section">
             <div class="requests-title animate">
-                <h2 class="title">Несколько просьб</h2>
+                <h2 class="title">Наши родные и друзья</h2>
             </div>
+
+            <p class="text mb-large animate delay-1">
+                У нас есть несколько просьб
+            </p>
 
             <div class="card-request animate delay-1">
                 <div class="card-request__title">
-                    Цветы
+                    Поздравления
                 </div>
                 <div class="card-request__desc">
-                    Пожалуйста, не дарите нам живые цветы. Их будет сложно доставить домой и хранить.
+                    Мы просим вас подготовить оригинальный номер: это может быть песня, стихотворение, сценка, творческий номер, мини-фильм или любой другой сюрприз на ваш вкус. Вы станете частью праздничной программы.
                 </div>
             </div>
 
             <div class="card-request animate delay-2">
                 <div class="card-request__title">
-                    Поздравления
+                    Цветы
                 </div>
                 <div class="card-request__desc">
-                    Пожалуйста, каждая семья (и каждый гость), подготовьте небольшой номер: песня и т.д.
+                    Пожалуйста, не дарите нам живые цветы, т.к потом сложно будет доставить их домой.
+                </div>
+            </div>
+
+            <div class="card-request animate delay-3">
+                <div class="card-request__title">
+                    Второй день
+                </div>
+                <div class="card-request__desc">
+                    Пожалуйста, не спешите уезжать — 17 июня нас ждёт душевный отдых: шашлыки, тёплая банька, весёлые игры и много живого общения.
+                </div>
+            </div>
+
+            <div class="card-request animate delay-3">
+                <div class="card-request__title">
+                    Дресс-код
+                </div>
+                <div class="card-request__desc">
+                    Мы будем рады, если Вы поддержите единую эстетику нашей свадьбы
                 </div>
             </div>
         </section>
-        <section class="section animate">
-            <h2 class="title">Дресс-код</h2>
+        <section class="section dresscode animate">
             <div class="text dresscode">
-                <p class="mb">Мы будем рады, если Вы поддержите <b>единую эстетику нашей свадьбы — European
-                        Elegance.</b></p>
-                <p class="mb">Просим Вас выбрать образы в благородной, спокойной палитре и отдать предпочтение
-                    элегантным, вечерним силуэтам.</p>
-
-                <p class="mb">
-                    <b>Для леди</b>
-                </p>
-                <p>Рекомендуемые оттенки:</p>
+                <h2 class="title">Для леди</h2>
+                <div class="colors-list">
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/lady/1.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/lady/2.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/lady/3.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/lady/4.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/lady/5.png"/>
+                    </div>
+                </div>
+                <!-- вставить отдельные кружки с цветами -->
+                <p>Рекомендуемые оттенки:</p><br>
                 <ul class="mb">
                     <li>• песчаный мёд</li>
                     <li>• жемчужный розовый</li>
@@ -129,28 +145,48 @@
                     <li>• мягкий жемчужный / айвори (беж)</li>
                 </ul>
 
-                <p>Приветствуются:</p>
+                <p>Приветствуются:</p><br>
                 <ul class="mb">
                     <li>• атлас, шёлк, шифон, бархат</li>
                     <li>• лаконичные силуэты</li>
                     <li>• минималистичные украшения</li>
                 </ul>
 
-                <p>Просим избегать:</p>
+                <p>Просим избегать:</p><br>
                 <ul class="mb">
                     <li>• белого и оттенков, близких к белому</li>
                     <li>• темно-коричневого, шоколадного цвета</li>
                     <li>• ярких, кричащих цветов</li>
                     <li>• casual-образов и активных принтов</li>
                 </ul>
-
-                <p class="mb">
-                    <b>Для джентльменов</b>
-                </p>
-
+                <br>
+                
+                <div class="img-box">
+                    <img src="./assets/colors/lady/clothes.JPG"/>
+                </div>
+                <br>
+                <h2 class="title">Для джентльменов</h2>
+                <div class="colors-list">
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/man/1.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/man/2.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/man/3.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/man/4.png"/>
+                    </div>
+                    <div class="colors-list-item">
+                        <img src="./assets/colors/man/5.png"/>
+                    </div>
+                </div>
+                
                 <p>
                     Рекомендуемые оттенки:
-                </p>
+                </p><br>
 
                 <ul class="mb">
                     <li>• серый</li>
@@ -161,39 +197,58 @@
                     <li>• темно-коричневы</li>
                 </ul>
 
-                <p>Приветствуются:</p>
+                <p>Приветствуются:</p><br>
                 <ul class="mb">
                     <li>• классические костюмы</li>
                     <li>• элегантные пиджаки</li>
                     <li>• лаконичные аксессуары</li>
                 </ul>
 
-                <p>Ваши образы станут частью общей атмосферы и сделают этот день ещё красивее</p>
-            </div>
-            <div class="colors">
-                <div class="card">
-                    <img src="./assets/colors.jpeg" />
+                <div class="img-box">
+                    <img src="./assets/colors/man/clothes.JPG"/>
                 </div>
+                <br>
+
+                <p>Ваши образы станут частью общей атмосферы и сделают этот день ещё красивее</p>
             </div>
         </section>
         <section class="section animate">
             <h2 class="title">Проживание</h2>
 
-            <p class="text">
-                Официальная часть будет проходить 16 числа, но если вы издалека и вам нужно жилье или вы хотите помочь в
-                подготовке, то можно заехать в дом с 14 числа с 16:00 до 18 числа 12:00.
-                Так же 17 числа будет проходить неофициальная часть, второй день праздника на нем так же можно
-                присутствовать. Продукты на время проживания в доме закупим.
+            <!-- отформатировать -->
+            <div class="text live">
+                <p>Дорогие гости, приезжающие из других городов!</p>
+
+                <p class="mb">Мы с радостью предоставляем проживание на время свадьбы.</p>
+
+                <p class="mb"><b>Заехать в дом можно 14 июня с 18:00, выезд — 18 июня до 12:00.</b></p>
+
+                <p class="mb">В доме будет всё необходимое для комфортного отдыха:</p>
+                <ul class="mb">
+                    <li>постельное бельё,</li>
+                    <li>банное полотенце (по одному на гостя),</li>
+                    <li>небольшой косметический набор и зубной набор,</li>
+                    <li>полностью оборудованная кухня, где можно приготовить еду,</li>
+                    <li>бильярд,</li>
+                    <li>сауна с мини-бассейном.</li>
+                </ul>
+
+                <p>Мы постарались продумать всё, чтобы ваше пребывание было уютным и приятным!</p>
             </p>
         </section>
         <section class="section animate">
-            <h2 class="title">Подтверждение участия</h2>
+            <h2 class="title">Ждем Вас</h2>
 
             <p class="text">
-                Очень просим точно сказать по поводу присутствия, ниже перейдите по ссылке и подтвердите/отклоните
-                участие.
+                Просим подтвердить присутствие на празднике до 30 апреля 2026г.
             </p>
 
+            <!-- заменить заголовок на подтверждение присутствия -->
+            <!-- написали свое ФИО -->
+            <!-- убрать последний блок -->
+            <!-- в доме достаточно место для каждого приезжего гостя. Вам необходимо жилье? да/нет -->
+            <!-- Останетесь на второй день свадьбы да/нет -->
+             
             <a href="https://forms.gle/aka7keQk8vu4m97x6" target="_blank" class="link">Подтвердить</a>
         </section>
     </main>
@@ -214,6 +269,10 @@
         );
 
         document.querySelectorAll('.animate').forEach(el => {
+            observer.observe(el);
+        });
+
+        document.querySelectorAll('.animate-2').forEach(el => {
             observer.observe(el);
         });
     </script>

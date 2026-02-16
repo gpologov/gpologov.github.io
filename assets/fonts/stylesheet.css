@@ -6,3 +6,9 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Sloop Script'; /* Имя, которое вы будете использовать */
+    src: url('./Sloop-Script-Pro.otf') format('opentype'); /* Путь к файлу */
+    font-weight: normal;
+    font-style: normal;
+}
