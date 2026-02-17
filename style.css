@@ -42,6 +42,33 @@ body {
     margin-top: 20px;
 }
 
+.date {
+    font-family: 'Sloop Script';
+    font-size: 36px;
+    text-align: center;
+}
+
+/* .schedule::after {
+    position: absolute;
+    content: '';
+    background-image: url('./assets/stroke.PNG');
+    height: 400px;
+    width: 400px;
+    top: 0;
+    left: 0;
+} */
+
+.stroke-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.stroke-background img {
+    height: 100%;
+    width: 100%;
+}
+
 .photo-card {
     position: relative;
     border-radius: 16px;
@@ -105,6 +132,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    position: relative;
 }
 
 .schedule .item {
