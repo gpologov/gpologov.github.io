@@ -261,16 +261,18 @@ body {
     min-height: 250px;
 }
 
-.card-request::after {
+.card-request-img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-request-img-box {
     position: absolute;
     content: '';
-    height: 355px;
-    width: 100%;
-    background-image: url(./assets/flowers.png);
-    background-size: contain;
-    top: -33px;
+    height: 202px;
+    top: 15px;
     z-index: 10;
-    right: -124px;
+    right: -4%;
     opacity: 0.3;
 }
 
