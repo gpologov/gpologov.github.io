@@ -253,9 +253,25 @@ body {
 
 .card-request {
     background-color: var(--primary);
-    padding: 50px 20px 40px 16px;
+    padding: 50px 20px 30px 16px;
     border-radius: 16px;
     color: #fff;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.card-request::after {
+    position: absolute;
+    content: '';
+    height: 355px;
+    width: 100%;
+    background-image: url(./assets/flowers.png);
+    background-size: contain;
+    top: -33px;
+    z-index: 10;
+    right: -124px;
+    opacity: 0.3;
 }
 
 .card-request:not(:last-child) {
