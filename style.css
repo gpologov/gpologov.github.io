@@ -261,19 +261,19 @@ body {
     min-height: 250px;
 }
 
-.card-request-img-box img {
-    height: 100%;
-    width: 100%;
-}
-
 .card-request-img-box {
     position: absolute;
-    content: '';
-    height: 202px;
     top: 15px;
-    z-index: 10;
-    right: -4%;
+    right: -20px;          /* или 0 / 5% — по вкусу */
+    width: 45%;           /* проценты от ширины карточки */
+    height: auto;
     opacity: 0.3;
+}
+
+.card-request-img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .card-request:not(:last-child) {
