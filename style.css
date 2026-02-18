@@ -270,6 +270,14 @@ body {
     opacity: 0.3;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.invite .title {
+    line-height: 36px;
+}
+
 .card-request-img-box img {
     width: 100%;
     height: auto;
